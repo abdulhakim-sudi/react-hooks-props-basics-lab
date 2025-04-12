@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function NavBar() {
-  return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-    </nav>
-  );
+    return (
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    );
 }
 
 export default NavBar;
